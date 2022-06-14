@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Dw_platform = () => {
+const DWPlatform = () => {
     return (
         <section className="section-3 container-fluid p-0 text-center" data-aos="fade-in" data-aos-offset="200"
             data-aos-delay="50" data-aos-duration="2000">
@@ -44,4 +44,4 @@ const Dw_platform = () => {
     )
 }
 
-export default Dw_platform
+export default DWPlatform

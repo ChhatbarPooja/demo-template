@@ -54,7 +54,7 @@ const Features = () => {
                                     </p>
                                     <div className="pricing">
                                         <h1>$77.99</h1>
-                                        <a href="#" className="btn btn-dark px-5 py-2 primary-btn mb-5">Purchase Now</a>
+                                        <a href="/abc.com" className="btn btn-dark px-5 py-2 primary-btn mb-5">Purchase Now</a>
 
                                     </div>
                                 </div>
@@ -69,7 +69,7 @@ const Features = () => {
                                     </p>
                                     <div className="pricing">
                                         <h1>$99.99</h1>
-                                        <a href="#" className="btn btn-dark px-5 py-2 primary-btn mb-5">Purchase Now</a>
+                                        <a href="/abc.com" className="btn btn-dark px-5 py-2 primary-btn mb-5">Purchase Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -83,7 +83,7 @@ const Features = () => {
                                     </p>
                                     <div className="pricing">
                                         <h1>$58.99</h1>
-                                        <a href="#" className="btn btn-dark px-5 py-2 primary-btn mb-5">Purchase Now</a>
+                                        <a href="" className="btn btn-dark px-5 py-2 primary-btn mb-5">Purchase Now</a>
                                     </div>
                                 </div>
                             </div>

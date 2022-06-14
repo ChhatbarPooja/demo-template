@@ -32,7 +32,7 @@ const Login = () => {
               <div className="form-group">
                 <h4 className="text-center font-weight-bold"> Login </h4>
                 <label htmlFor="InputEmail1">Email Address</label>
-                <input type="text" className="form-control" aria-describeby="emailHelp" placeholder="Enter email" name="email"
+                <input type="text" className="form-control"  placeholder="Enter email" name="email"
                   autoComplete="off"
                   id="email"
                   required

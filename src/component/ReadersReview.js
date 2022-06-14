@@ -1,12 +1,8 @@
 import React from 'react'
 import face1 from './assets/UI-face-1.jpg';
-import face2 from './assets/UI-face-2.jpg';
-import face3 from './assets/UI-face-3.jpg';
-import face4 from './assets/UI-face-4.jpg';
-import face5 from './assets/UI-face-5.jpg';
 
 
-const Readers_review = () => {
+const ReadersReview = () => {
     return (
 
         <section className="section-4" data-aos="fade-up" data-aos-offset="200"
@@ -24,54 +20,54 @@ const Readers_review = () => {
                     <div className="d-flex flex-row justify-content-center flex-wrap">
                         <div className="card">
 
-                            <img class="card-img-top" src={face1} alt="Card image cap" style={{ width: '100%' }} />
+                            <img className="card-img-top" src={face1} alt="Card image cap" style={{ width: '100%' }} />
 
-                            <div class="card-body">
-                                <h3 class="card-title">Blalock Jolene</h3>
-                                <p class="card-text">
+                            <div className="card-body">
+                                <h3 className="card-title">Blalock Jolene</h3>
+                                <p className="card-text">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
                                     iure autem recusandae, veniam, illo dolor soluta assumenda
                                     minima quia velit officia sit exercitationem nam ipsa,
                                     repellendus aut facilis quasi voluptas!
                                 </p>
-                                <a href="#" class="text-secondary text-decoration-none">
+                                <a href="/abc.com" className="text-secondary text-decoration-none">
                                     Go somewhere</a>
 
-                                <p class="text-black-50">CEO at Google</p>
+                                <p className="text-black-50">CEO at Google</p>
                             </div>
 
                         </div>
                         <div className="card">
-                            <img class="card-img-top" src={face1} alt="Card image cap" style={{ width: '100%' }} />
+                            <img className="card-img-top" src={face1} alt="Card image cap" style={{ width: '100%' }} />
 
-                            <div class="card-body">
-                                <h3 class="card-title">Blalock Jolene</h3>
-                                <p class="card-text">
+                            <div className="card-body">
+                                <h3 className="card-title">Blalock Jolene</h3>
+                                <p className="card-text">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
                                     iure autem recusandae, veniam, illo dolor soluta assumenda
                                     minima quia velit officia sit exercitationem nam ipsa,
                                     repellendus aut facilis quasi voluptas!
                                 </p>
-                                <a href="#" class="text-secondary text-decoration-none"
+                                <a href="/abc.com" className="text-secondary text-decoration-none"
                                 >Go somewhere</a>
 
-                                <p class="text-black-50">CEO at Google</p>
+                                <p className="text-black-50">CEO at Google</p>
                             </div>
                         </div>
                         <div className="card">
-                            <img class="card-img-top" src={face1} alt="Card image cap" style={{ width: '100%' }} />
+                            <img className="card-img-top" src={face1} alt="Card image cap" style={{ width: '100%' }} />
 
-                            <div class="card-body">
-                                <h3 class="card-title">Blalock Jolene</h3>
-                                <p class="card-text">
+                            <div className="card-body">
+                                <h3 className="card-title">Blalock Jolene</h3>
+                                <p className="card-text">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
                                     iure autem recusandae, veniam, illo dolor soluta assumenda
                                     minima quia velit officia sit exercitationem nam ipsa,
                                     repellendus aut facilis quasi voluptas!
                                 </p>
-                                <a href="#" class="text-secondary text-decoration-none"
+                                <a href="/abc.com" className="text-secondary text-decoration-none"
                                 >Go somewhere</a>
-                                <p class="text-black-50">CEO at Google</p>
+                                <p className="text-black-50">CEO at Google</p>
                             </div>
 
                         </div>
@@ -84,4 +80,4 @@ const Readers_review = () => {
     )
 }
 
-export default Readers_review
+export default ReadersReview

@@ -24,7 +24,7 @@ const Fiction = () => {
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, perspiciatis? Iure tempora distinctio velit unde, ipsum nemo repudiandae minima error.
                     </p>
-                    <a href="" className='btn btn-primary'>Buy Now</a>
+                    <a href="/abc.com" className='btn btn-primary'>Buy Now</a>
                 </section>
 
                 <section className='card fiction-card'>
@@ -33,7 +33,7 @@ const Fiction = () => {
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, perspiciatis? Iure tempora distinctio velit unde, ipsum nemo repudiandae minima error.
                     </p>
-                    <a href="" className='btn btn-primary'>Buy Now</a>
+                    <a href="/abc.com" className='btn btn-primary'>Buy Now</a>
                 </section>
 
                 <section className='card fiction-card'>
@@ -42,34 +42,34 @@ const Fiction = () => {
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, perspiciatis? Iure tempora distinctio velit unde, ipsum nemo repudiandae minima error.
                     </p>
-                    <a href="" className='btn btn-primary'>Buy Now</a>
+                    <a href="/abc.com" className='btn btn-primary'>Buy Now</a>
                 </section>
 
                 <section className='card fiction-card'>
-                    <img className="img-fluid" src={fiction_4}></img>
+                    <img className="img-fluid" src={fiction_4} alt=""></img>
                     <h3>Fiction books</h3>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, perspiciatis? Iure tempora distinctio velit unde, ipsum nemo repudiandae minima error.
                     </p>
-                    <a href="" className='btn btn-primary'>Buy Now</a>
+                    <a href="/abc.com" className='btn btn-primary'>Buy Now</a>
                 </section>
 
                 <section className='card fiction-card'>
-                    <img className="img-fluid" src={fiction_5}></img>
+                    <img className="img-fluid" src={fiction_5} alt=""></img>
                     <h3>Fiction books</h3>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, perspiciatis? Iure tempora distinctio velit unde, ipsum nemo repudiandae minima error.
                     </p>
-                    <a href="" className='btn btn-primary'>Buy Now</a>
+                    <a href="/abc.com" className='btn btn-primary'>Buy Now</a>
                 </section>
 
                 <section className='card fiction-card'>
-                    <img className="img-fluid" src={fiction_6}></img>
+                    <img className="img-fluid" src={fiction_6} alt=""></img>
                     <h3>Fiction books</h3>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, perspiciatis? Iure tempora distinctio velit unde, ipsum nemo repudiandae minima error.
                     </p>
-                    <a href="" className='btn btn-primary'>Buy Now</a>
+                    <a href="/abc.com" className='btn btn-primary'>Buy Now</a>
                 </section>
             </main>
             <Footer />
