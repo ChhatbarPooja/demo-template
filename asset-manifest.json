@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/demo-template/static/css/main.02a7c4b1.css",
+    "main.js": "/demo-template/static/js/main.b6475227.js",
+    "static/media/slider2.jpg": "/demo-template/static/media/slider2.b464897d8aebb70cc5fd.jpg",
+    "static/media/slider3.jpg": "/demo-template/static/media/slider3.bdd7f01daae682f4086b.jpg",
+    "static/media/slider1.jpg": "/demo-template/static/media/slider1.846d447362f39f64778f.jpg",
+    "static/media/contact-cover.jpg": "/demo-template/static/media/contact-cover.b07230b9981742c3cd0e.jpg",
+    "static/media/pexels-photo-1904769.jpeg": "/demo-template/static/media/pexels-photo-1904769.5089ad3867aa154c05a4.jpeg",
+    "static/media/pexels-photo-452738.jpeg": "/demo-template/static/media/pexels-photo-452738.8bdc0c13c91a86e76c40.jpeg",
+    "static/media/UI-face-1.jpg": "/demo-template/static/media/UI-face-1.0c06a708ad5a5fcb6fcf.jpg",
+    "static/media/book5.jpg": "/demo-template/static/media/book5.de7504ae8bd366ded678.jpg",
+    "static/media/fiction_4.jpg": "/demo-template/static/media/fiction_4.94c57999996e86b51a63.jpg",
+    "static/media/book8.jpg": "/demo-template/static/media/book8.a18ad891aa0384b4909c.jpg",
+    "static/media/book7.jpg": "/demo-template/static/media/book7.9bae44c03b0be2079441.jpg",
+    "static/media/fiction_2.jpg": "/demo-template/static/media/fiction_2.356b7dc565ff00921137.jpg",
+    "static/media/book4.jpg": "/demo-template/static/media/book4.ef0af3dcc92a54e7bbb9.jpg",
+    "static/media/book3.jpg": "/demo-template/static/media/book3.3027a9b8ee28a0b2d0dd.jpg",
+    "static/media/book2.jpg": "/demo-template/static/media/book2.cdbd6c01bf1a95c948c5.jpg",
+    "static/media/book6.jpg": "/demo-template/static/media/book6.2e09a4b0b99d847e987e.jpg",
+    "static/media/fiction_3.jpg": "/demo-template/static/media/fiction_3.782e5aa0c5ea7a4a07a5.jpg",
+    "static/media/fiction_1.jpg": "/demo-template/static/media/fiction_1.90ab0e105100dcdf4b12.jpg",
+    "index.html": "/demo-template/index.html",
+    "main.02a7c4b1.css.map": "/demo-template/static/css/main.02a7c4b1.css.map",
+    "main.b6475227.js.map": "/demo-template/static/js/main.b6475227.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02a7c4b1.css",
+    "static/js/main.b6475227.js"
+  ]
+}
