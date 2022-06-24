@@ -4,19 +4,19 @@ const Main = () => {
     return (
 
         <main>
-            <section class="section-1 pt-4 m-0" data-aos="fade-up" data-aos-offset="200"
+            <section className="section-1 pt-4 m-0" data-aos="fade-up" data-aos-offset="200"
                 data-aos-delay="50" data-aos-duration="2000">
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-md-6 col-12">
-                            <div class="pray">
-                                <img src={main} alt="Pray" class="img-fluid" />
+                <div className="container text-center">
+                    <div className="row">
+                        <div className="col-md-6 col-12">
+                            <div className="pray">
+                                <img src={main} alt="Pray" className="img-fluid" />
                             </div>
                         </div>
-                        <div class="col-md-6 col-12">
-                            <div class="panel text-left">
+                        <div className="col-md-6 col-12">
+                            <div className="panel text-left">
                                 <h1>Mr. Devid Smith</h1>
-                                <p class="pt-4">
+                                <p className="pt-4">
                                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere iure adipisci harum ducimus accusantium, repudiandae aperiam voluptatum, id ex ratione omnis reiciendis possimus officiis.
                                 </p>
                                 {/* <p>

@@ -1,81 +1,111 @@
-import React from 'react'
-import Footer from './Footer'
-import Navbar from './Navbar'
-import fiction_1 from './assets/fiction_1.jpg';
-import fiction_2 from './assets/fiction_2.jpg';
-import fiction_3 from './assets/fiction_3.jpg';
-import fiction_4 from './assets/fiction_4.jpg';
-import fiction_5 from './assets/fiction_5.jpg';
-import fiction_6 from './assets/fiction_6.jpg';
-const Fiction = () => {
-    return (
-        <>
-            <Navbar />
-            <h1 className='text-center'>Fiction Books</h1>
-            <header className='main-header'>
-                <h1><span>Must Read</span> Interesting Books</h1>
-                <p>The fiction section offers original stories.</p>
-            </header>
+import React from "react";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
+import FictionData from "./FictionData";
 
-            <main className=' container fiction-container'>
-                <section className='card fiction-card'>
-                    <img className="img-fluid" src={fiction_1} alt="" ></img>
-                    <h3>Fiction books</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, perspiciatis? Iure tempora distinctio velit unde, ipsum nemo repudiandae minima error.
-                    </p>
-                    <a href="/abc.com" className='btn btn-primary'>Buy Now</a>
-                </section>
+const Fiction = (props) => {
+  return (
+    <>
+      <Navbar />
+      <header className="main-header">
+        <h1>
+          <span>Fiction Books</span> Gallery
+        </h1>
+        <p>
+        Fiction is any creative work, chiefly any narrative work, portraying individuals, events, or places in ways that are imaginary or inconsistent with history, ...
+        </p>
+      </header>
+      <main className="container container-fiction">
+        {FictionData.map((curEle) => {
+          return (
+            <>
+              <section className="card card-fiction text-center">
+                <img src={curEle.imgsrc} alt="" />
+                <div>
+                  <h3>{curEle.title}</h3>
+                  <p>{curEle.description}</p>
+                  <a href="#" className="btn btn-fiction fiction-a">
+                    Read
+                  </a>
+                </div>
+              </section>
+            </>
+          );
+        })}
 
-                <section className='card fiction-card'>
-                    <img className="img-fluid" src={fiction_2} alt=""></img>
-                    <h3>Fiction books</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, perspiciatis? Iure tempora distinctio velit unde, ipsum nemo repudiandae minima error.
-                    </p>
-                    <a href="/abc.com" className='btn btn-primary'>Buy Now</a>
-                </section>
+        {/* <section className="card card-fiction text-center" data-aos="fade-left">
+          <img src={fiction_2} className="img-fiction" alt="" />
+          <div>
+            <h3>Fiction Book Two</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+              error enim laudantium, animi veniam libero eveniet culpa unde
+              perferendis illo fugit corporis, voluptatibus totam dolorum,
+              maiores magnam officia. Ab, delectus.
+            </p>
+            <a href="#" className="btn btn-fiction fiction-a">
+              Buy Now
+            </a>
+          </div>
+        </section>
 
-                <section className='card fiction-card'>
-                    <img className="img-fluid" src={fiction_3} alt=""></img>
-                    <h3>Fiction books</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, perspiciatis? Iure tempora distinctio velit unde, ipsum nemo repudiandae minima error.
-                    </p>
-                    <a href="/abc.com" className='btn btn-primary'>Buy Now</a>
-                </section>
+        <section
+          className="card card-fiction text-center"
+          data-aos="fade-right"
+        >
+          <img src={fiction_3} className="img-fiction" alt="" />
+          <div>
+            <h3>Fiction Book Three</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+              error enim laudantium, animi veniam libero eveniet culpa unde
+              perferendis illo fugit corporis, voluptatibus totam dolorum,
+              maiores magnam officia. Ab, delectus.
+            </p>
+            <a href="#" className="btn btn-fiction fiction-a">
+              Buy Now
+            </a>
+          </div>
+        </section>
 
-                <section className='card fiction-card'>
-                    <img className="img-fluid" src={fiction_4} alt=""></img>
-                    <h3>Fiction books</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, perspiciatis? Iure tempora distinctio velit unde, ipsum nemo repudiandae minima error.
-                    </p>
-                    <a href="/abc.com" className='btn btn-primary'>Buy Now</a>
-                </section>
+        <section className="card card-fiction text-center" data-aos="fade-left">
+          <img src={fiction_4} className="img-fiction" alt="" />
+          <div>
+            <h3>Fiction Book Four</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+              error enim laudantium, animi veniam libero eveniet culpa unde
+              perferendis illo fugit corporis, voluptatibus totam dolorum,
+              maiores magnam officia. Ab, delectus.
+            </p>
+            <a href="#" className="btn btn-fiction fiction-a">
+              Buy Now
+            </a>
+          </div>
+        </section>
 
-                <section className='card fiction-card'>
-                    <img className="img-fluid" src={fiction_5} alt=""></img>
-                    <h3>Fiction books</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, perspiciatis? Iure tempora distinctio velit unde, ipsum nemo repudiandae minima error.
-                    </p>
-                    <a href="/abc.com" className='btn btn-primary'>Buy Now</a>
-                </section>
+        <section
+          className="card card-fiction text-center"
+          data-aos="fade-right"
+        >
+          <img src={fiction_5} className="img-fiction" alt="" />
+          <div>
+            <h3>Fiction Book Five</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+              error enim laudantium, animi veniam libero eveniet culpa unde
+              perferendis illo fugit corporis, voluptatibus totam dolorum,
+              maiores magnam officia. Ab, delectus.
+            </p>
+            <a href="#" className="btn btn-fiction fiction-a">
+              Buy Now
+            </a>
+          </div>
+        </section> */}
+      </main>{" "}
+      <Footer />
+    </>
+  );
+};
 
-                <section className='card fiction-card'>
-                    <img className="img-fluid" src={fiction_6} alt=""></img>
-                    <h3>Fiction books</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, perspiciatis? Iure tempora distinctio velit unde, ipsum nemo repudiandae minima error.
-                    </p>
-                    <a href="/abc.com" className='btn btn-primary'>Buy Now</a>
-                </section>
-            </main>
-            <Footer />
-        </>
-
-    )
-}
-
-export default Fiction
+export default Fiction;

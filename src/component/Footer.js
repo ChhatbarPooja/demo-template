@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
@@ -17,7 +17,7 @@ const Footer = () => {
               <span> Pooja Chhatbar</span>
             </p>
           </div>
-          <div className="col-md-5 col-sm-12">
+          <div className="col-md-5 col-sm-4 col-sm-12">
             <h4 className="text-light">Newsletter</h4>
             <p className="text-muted">Stay Updated</p>
             <form className="form-inline">
@@ -25,13 +25,13 @@ const Footer = () => {
                 <div className="input-group pr-5">
                   <input
                     type="text"
-                    className="form-control bg-dark text-white"
+                    className="form-control bg-dark text-white p-3"
                     id="inlineFormInputGroupUsername2"
                     placeholder="Email"
                   />
                   <div className="input-group-prepend">
                     <div className="input-group-text">
-                      <i className="fas fa-arrow-right"></i>
+                      <i className="fas fa-arrow-right p-1"></i>
                     </div>
                   </div>
                 </div>
@@ -51,8 +51,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+  );
+};
 
-  )
-}
-
-export default Footer
+export default Footer;

@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+
 import { BrowserRouter as Router } from "react-router-dom";
 import App from "../App";
-import { Helmet } from "react-helmet";
+
 function Login() {
   const [errorMessages, setErrorMessages] = useState({});
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -9,6 +10,7 @@ function Login() {
   const database = [
     {
       username: "user1",
+      email: "pooja@123",
       password: "pass1",
     },
     {
@@ -19,14 +21,15 @@ function Login() {
 
   const errors = {
     uname: "invalid username",
-
+    email: "enter email",
     pass: "invalid password",
   };
 
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    var { uname, pass } = document.forms[0];
+    var { uname, email, pass } = document.forms[0];
+
     const userData = database.find((user) => user.username === uname.value);
 
     if (userData) {
@@ -46,23 +49,24 @@ function Login() {
     );
 
   const Form = (
-    <div className="login">
-      <Helmet>
-        <link rel="stylesheet" href="Login.css" />
-      </Helmet>
+    <div className="UserLogin">
       <form onSubmit={handleSubmit}>
-        <div className="input-container">
+        <div className="userinput-container">
           <label>Username </label>
           <input type="text" name="uname" required />
           {renderErrorMessage("uname")}
         </div>
-
-        <div className="input-container">
+        <div className="userinput-container">
+          <label>Email </label>
+          <input type="email" name="email" required />
+          {renderErrorMessage("email")}
+        </div>
+        <div className="userinput-container">
           <label>Password </label>
           <input type="password" name="pass" required />
           {renderErrorMessage("pass")}
         </div>
-        <div className="button-container">
+        <div className="userbutton-container">
           <input type="submit" />
         </div>
       </form>
@@ -70,19 +74,9 @@ function Login() {
   );
 
   return (
-    <div className="app">
-      <style
-        dangerouslySetInnerHTML={{
-          __html: `
-            .app {
-           
-    display: flex;
-   `,
-        }}
-      />
-
-      <div className="Login-form">
-        <div className="title"></div>
+    <div className="UserLogin">
+      <div className="UserLogin-form">
+        <div className="usertitle"></div>
         {isSubmitted ? (
           <Router>
             <App />
